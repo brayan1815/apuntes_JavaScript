@@ -51,10 +51,51 @@
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-const flecha = (a,b)=>{
-    return a*b;    
-}
+// const flecha = (a,b)=>{
+//     return a*b;    
+// }
 
-let respuesta = flecha(4,5);
+// let respuesta = flecha(4,5);
 
-console.log(respuesta);
+// console.log(respuesta);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+// console.log(a);
+
+// const a=[ 1, "letras", true, false,[1,"mas_letras"]];
+// a.push("Brayan"); //agregar una posicion al final del arreglo
+// a.pop();//eliminar la ultima posicion al final del arreglo
+// console.log(a[4][1]); //se accede a "mas_letras"
+
+// console.log(a[0]); //se acede al primer capo del arreglo
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// const person={
+//     nombre:"Brayan",
+//     apellido:"Fernnadez",
+//     edad:17,
+//     saluda: function(){
+//         return `Hola soy ${this.nombre}`
+//     }
+// }
+
+//  //atributo pais 
+// person.pais="Colombia"; //se le agrega un atributo al objeto afuera de este 
+
+// person.despedir=function(){
+//     return `Adios, se despide ${this.nombre}` // se agrega una funcion al objeto afuera de este
+// }
+// // console.log(person.saluda());
+// // console.log(person.despedir());
+
+// // console.log(Object.keys(person));
+
+// // if(Object.keys(person).indexOf("genero"===-1)){
+// //     console.log("El atributo no fue ddefinido");
+// // }
+
+// console.log(Object.keys(person).includes("pais"));
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
